@@ -1,0 +1,23 @@
+# אבטחה - קבצי מפתחות וטוקנים של גוגל
+server/credentials.json
+server/tokens.json
+server/tokens/
+*.pem
+*.json.json
+
+# משתני סביבה (סיסמאות ל-DB וכו')
+.env
+.env.local
+
+# ספריות קוד (נורא כבדות, לא מעלים אותן)
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# קבצי AI ומודלים (כדי שלא יחסמו לך את ה-Git)
+server/embeddings/
+.cache/
+
+# קבצי בנייה (Build)
+client/build/
+dist/
