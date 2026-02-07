@@ -1615,7 +1615,7 @@ const App = () => {
   // שמירת המייל המחובר
   const [userEmail, setUserEmail] = useState(localStorage.getItem('userEmail') || '');
 
-  const API_BASE = "http://localhost:5000";
+  const API_BASE = "https://smart-search-server.onrender.com";
 
   // האזנה לסיום התחברות מוצלח
   // useEffect(() => {
