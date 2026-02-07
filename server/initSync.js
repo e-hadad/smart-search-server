@@ -1,13 +1,3 @@
-// import { listFiles } from "./services/drive.service.js";
-// import { syncImages } from "./services/syncImages.js";
-
-// const init = async () => {
-//   const files = await listFiles();
-//   const db = await syncImages(files);
-//   console.log("Database after sync:", db);
-// };
-
-// init();
 
 import { listFiles } from "./services/drive.service.js";
 import { syncImages } from "./services/syncImages.js";
